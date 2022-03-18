@@ -1,8 +1,8 @@
-from classes import Dog, Color # импорт компонентов из файла
+from classes import Dog, Color # importing components from a file
 
-a = "Йорк" # переменная
+a = "Йорк"
 
-dog = Dog(a) # переменная с классом
-dog.Dogs() # вызов класса
-dog = Color(a) # переменная с классом
-dog.Dog_Color("коричневый") # вызов класса
+dog = Dog(a)
+dog.Dogs()
+dog = Color(a)
+dog.Dog_Color("коричневый") # class call
