@@ -1,17 +1,17 @@
-class Dog: # класс
+class Dog: # class
 
-    def __init__(self, Dog_Paroda): # функция для хранения объектов
+    def __init__(self, Dog_Paroda):
 
-        self.Dog_Paroda = Dog_Paroda # переменная (объект)
+        self.Dog_Paroda = Dog_Paroda
 
-    def Dogs(self): # функция (объект)
+    def Dogs(self):
 
-        print(f"Парода {self.Dog_Paroda}.") # вывод сообщения
+        print(f"Парода {self.Dog_Paroda}.")
 
-class Color(Dog): # класс
+class Color(Dog):
 
-    def Dog_Color(self, color): # функция (объект)
+    def Dog_Color(self, color):
 
-        self.color = color # переменная (объект)
-
-        print(f'Цвет {self.color}.') # вывод сообщения
+        self.color = color
+        
+        print(f'Цвет {self.color}.')
