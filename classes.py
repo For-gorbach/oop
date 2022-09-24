@@ -1,12 +1,12 @@
 class Dog: # class
 
-    def __init__(self, Dog_Paroda):
+    def __init__(self, Dog_Poroda):
 
-        self.Dog_Paroda = Dog_Paroda
+        self.Dog_Poroda = Dog_Poroda
 
     def Dogs(self):
 
-        print(f"Парода {self.Dog_Paroda}.")
+        print(f"Порода {self.Dog_Poroda}.")
 
 class Color(Dog):
 
